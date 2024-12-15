@@ -51,49 +51,6 @@ function hiddenSide() {
   sidebar.style.display = "none";
 }
 
-function LOOK(){
-  const header= document.querySelector("header");
-  header.style.filter = "blur(300px)";
-  const section = document.querySelector("section");
-  section.style.filter = "blur(300px)";
-  const contact = document.querySelector(".contact");
-  contact.style.filter = "blur(300px)";
-  const set = document.querySelector(".services-container");
-  set.style.filter = "blur(300px)";
-  const footer = document.querySelector(".footer");
-  footer.style.filter = "blur(300px)";
-  const skills = document.querySelector(".skills");
-  skills.style.filter = "blur(300px)";
-  const education = document.querySelector(".education");
-  education.style.filter = "blur(300px)";
-  const service = document.querySelector(".service");
-  service.style.filter = "blur(300px)";
-  const sidebar= document.querySelector(".alart");
-  sidebar.style.display = "list-item";
-  sidebar.style.filter = "opacity(20px)";
-
-}
-function Close(){
-  const header= document.querySelector("header");
-  header.style.filter = "none";
-  const section = document.querySelector("section");
-  section.style.filter = "none";
-  const contact = document.querySelector(".contact");
-  contact.style.filter = "none";
-  const set = document.querySelector(".services-container");
-  set.style.filter = "none";
-  const footer = document.querySelector(".footer");
-  footer.style.filter = "none";
-  const skills = document.querySelector(".skills");
-  skills.style.filter = "none";
-  const education = document.querySelector(".education");
-  education.style.filter = "none";
-  const service = document.querySelector(".service");
-  service.style.filter = "none";
-  const sidebar= document.querySelector(".alart");
-  sidebar.style.display = "none";
-  sidebar.style.filter = "none";
-}
 // contact
 // footer
 // education
