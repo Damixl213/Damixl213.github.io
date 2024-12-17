@@ -1077,11 +1077,8 @@ text-align: center;
 position: relative;
 top:1px ;
  left: 10px;
- color:var(--bg-color) ;
- font-size: 2rem;
- background-color: #41f1b6;
- border-radius: 10px;
-
+ color:var(--color-primary) ;
+ background-color: wheat;
  
  }
 
